@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+#options button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    width: 80%;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#options button.correct {
+    background: #4CAF50;
+    color: #fff;
+}
+
+#options button.wrong {
+    background: #F44336;
+    color: #fff;
+}
+
+#nextBtn, #restartBtn {
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
